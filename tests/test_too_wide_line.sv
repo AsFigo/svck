@@ -1,3 +1,9 @@
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
+
 //Memory Controller
 module test_too_wide_line #(
     parameter int DATA_WIDTH = 32,
