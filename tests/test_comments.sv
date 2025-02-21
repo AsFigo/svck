@@ -1,3 +1,9 @@
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
+
 //Memory Controller
   module mem_d#(parameter DATA_WIDTH=32,ADDR_WIDTH=16)
                 (input       clk,             
