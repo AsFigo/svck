@@ -1,3 +1,9 @@
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
+
 package p1;
   int tt;
 endpackage
