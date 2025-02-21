@@ -1,3 +1,8 @@
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
 class c;
   protected int state_snake_name_1;
   rand int camelCaseName2;
