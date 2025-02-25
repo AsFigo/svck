@@ -1,8 +1,3 @@
-# ----------------------------------------------------
-# SPDX-FileCopyrightText: AsFigo Technologies, UK
-# SPDX-FileCopyrightText: VerifWorks, India
-# SPDX-License-Identifier: MIT
-# ----------------------------------------------------
 
 import logging
 import string_utils.validation as StringValidation

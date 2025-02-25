@@ -1,8 +1,3 @@
-# ----------------------------------------------------
-# SPDX-FileCopyrightText: AsFigo Technologies, UK
-# SPDX-FileCopyrightText: VerifWorks, India
-# SPDX-License-Identifier: MIT
-# ----------------------------------------------------
 
 from af_lint_rule import AsFigoLintRule
 import logging
