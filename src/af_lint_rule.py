@@ -1,4 +1,8 @@
-
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
 import logging
 import verible_verilog_syntax
 

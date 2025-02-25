@@ -1,3 +1,9 @@
+# ----------------------------------------------------
+# SPDX-FileCopyrightText: AsFigo Technologies, UK
+# SPDX-FileCopyrightText: VerifWorks, India
+# SPDX-License-Identifier: MIT
+# ----------------------------------------------------
+
 import sys
 import os
 # Add the 'src' directory to the Python path
