@@ -1,3 +1,9 @@
+// ----------------------------------------------------
+//SPDX-FileCopyrightText: AsFigo Technologies, UK
+//SPDX-FileCopyrightText: VerifWorks, India
+// SPDX-License-Identifier: MIT
+//-----------------------------------------------------
+
 class NamingConsistencyTest;
     // Using CamelCase naming convention consistently
     rand int firstVariable; 
