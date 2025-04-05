@@ -1,3 +1,10 @@
+// ----------------------------------------------------
+//SPDX-FileCopyrightText: AsFigo Technologies, UK
+//SPDX-FileCopyrightText: VerifWorks, India
+// SPDX-License-Identifier: MIT
+//-----------------------------------------------------
+
+
 class Transmitter;
   protected int data; 
 

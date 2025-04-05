@@ -1,3 +1,8 @@
+// ----------------------------------------------------
+//SPDX-FileCopyrightText: AsFigo Technologies, UK
+//SPDX-FileCopyrightText: VerifWorks, India
+// SPDX-License-Identifier: MIT
+//-----------------------------------------------------
 
 class base;
   int signal; //  Should be private or protected

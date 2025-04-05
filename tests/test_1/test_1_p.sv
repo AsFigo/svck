@@ -1,3 +1,9 @@
+// ----------------------------------------------------
+//SPDX-FileCopyrightText: AsFigo Technologies, UK
+//SPDX-FileCopyrightText: VerifWorks, India
+// SPDX-License-Identifier: MIT
+//-----------------------------------------------------
+
 class Pass;
   protected int data; 
 

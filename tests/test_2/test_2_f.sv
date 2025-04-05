@@ -1,3 +1,9 @@
+// ----------------------------------------------------
+//SPDX-FileCopyrightText: AsFigo Technologies, UK
+//SPDX-FileCopyrightText: VerifWorks, India
+// SPDX-License-Identifier: MIT
+//-----------------------------------------------------
+
 class FailFIFO;
   protected int queue[$];function new(); $display("FIFO Created"); endfunction
   function void push(int data);queue.push_back(data);endfunction
