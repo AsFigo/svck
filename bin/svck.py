@@ -16,6 +16,7 @@ from rules.af_no_global_vars import NoGlobalVarsRule
 from rules.af_var_naming_consistency import VarNamingConsistencyRule
 from rules.af_encapsulation import EncapsulationRule
 from rules.af_nested_if import NoNestedIfRule
+from rules.af_no_generic_mbx import NoGenericMBXRule
 
 class svckLinter(AsFigoLinter):
     """Linter that applies multiple rules based on Mark Glasser's book."""
@@ -26,6 +27,7 @@ class svckLinter(AsFigoLinter):
             NoGlobalVarsRule(self),
             VarNamingConsistencyRule(self),
             EncapsulationRule(self),
+            NoGenericMBXRule(self),
             NoNestedIfRule(self)]
 
     def loadSyntaxTree(self):
