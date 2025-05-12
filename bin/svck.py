@@ -16,6 +16,7 @@ from rules.af_no_global_vars import NoGlobalVarsRule
 from rules.af_var_naming_consistency import VarNamingConsistencyRule
 from rules.af_encapsulation import EncapsulationRule
 from rules.af_nested_if import NoNestedIfRule
+from rules.af_package_check import PackageCheckRule
 
 class svckLinter(AsFigoLinter):
     """Linter that applies multiple rules based on Mark Glasser's book."""
@@ -23,10 +24,12 @@ class svckLinter(AsFigoLinter):
     def __init__(self, configFile, logLevel=logging.INFO):
         super().__init__(configFile=configFile, logLevel=logLevel)
         self.rules = [
+            PackageCheckRule(self),
+            NoNestedIfRule(self),
             NoGlobalVarsRule(self),
             VarNamingConsistencyRule(self),
-            EncapsulationRule(self),
-            NoNestedIfRule(self)]
+            EncapsulationRule(self)
+            ]
 
     def loadSyntaxTree(self):
         """Loads Verilog syntax tree using VeribleVerilogSyntax."""
